@@ -10,7 +10,7 @@ This Solidity program is a simple implementation of an erc-20 token with all the
 
 
 ## CONTRACT ADDRESSES (SEPOLIA)
-- SIMPLEDAPP CONTRACT ADDRESSES: [0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5](https://sepolia.etherscan.io/address/0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5#writeContract)
+- MYTOKEN CONTRACT ADDRESSES: [0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5](https://sepolia.etherscan.io/address/0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5#writeContract)
 
 
 ## Executing program
