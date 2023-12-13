@@ -1,66 +1,36 @@
-## Foundry
+# METACRAFTERS ETH + AVAX PROOF: Intermediate EVM Course
+## MODULE: Types of Functions - ETH + AVAX
+## CONTRACT NAME: MYTOKEN.SOL
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This program is a final assesment for the above mentioned module and as required is a simple ERC-20 token that allows an admin to mint tokens to users and users are able to transfer as well as burn the tokens they have.
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Description
+This Solidity program is a simple implementation of an erc-20 token with all the functionalities implemented, it also contains events for all state modifying functions and finally access countrol to limit those able to mint tokens to just the admin.
 
-## Documentation
 
-https://book.getfoundry.sh/
+## CONTRACT ADDRESSES (SEPOLIA)
+- SIMPLEDAPP CONTRACT ADDRESSES: [0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5](https://sepolia.etherscan.io/address/0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5#writeContract)
 
-## Usage
 
-### Build
+## Executing program
+#### STEP 1
+- NAVIGATE TO THIS PROJECT ON ETHERSCAN BY USING THIS [LINK](https://sepolia.etherscan.io/address/0x80cde7e4ce69e042102affd8f6ad9cc9d072bca5#writeContract)
 
-```shell
-$ forge build
-```
+#### STEP 2
+- CLONE THE PROJECT INTO REMIX.
 
-### Test
+#### STEP 3
+- DEPLOY THE CONTRACT BY PASSING IN THE REQUIRED CONSTRUCTOR ARGUMENTS.
 
-```shell
-$ forge test
-```
+#### STEP 4
+- MINT, TRANSFER AND BURN TOKENS AS REQUIRED.
 
-### Format
 
-```shell
-$ forge fmt
-```
+## Authors
+Idogwu Chinonso
+[@metacraftersio](https://twitter.com/ChinonsoIdogwu)
 
-### Gas Snapshots
 
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
